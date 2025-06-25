@@ -37,14 +37,6 @@ body {
     height: 70px; /* necesaria para que el centrado vertical se note */
 }
 
-.contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    border: 1px solid rgb(35, 91, 105);    
-}   
-
 
 button,
 button:focus {
@@ -63,5 +55,21 @@ button:focus {
 
 button:active {
     transform: translate(0, 0);
-    border-bottom: 2px solid rgb(50, 50, 50);
+    border-bottom: 2px solid rgb(50, 50, 50); /* no le voy a mentir profe, este boton salio de una pagina llamda universe.io*/
 }
+
+.ContenedorCuerpo {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border: 1px solid rgb(35, 91, 105);    
+}   

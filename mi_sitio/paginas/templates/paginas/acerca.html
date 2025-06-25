@@ -15,13 +15,23 @@
     </style>
 </head>
 <body>
+    
     <div class="encabezado">
         <h1 style="color: rgb(0, 0, 0); font-family: Poppins;">Acerca de</h1>
     </div>
+    {% include 'paginas/base.html' %}
 
-    <div class="contenedor">
-        {% include 'paginas/base.html' %}
+    <div class="ContenedorCuerpo">
+        <a href="https://store.steampowered.com/app/1286710/Hylics_2/" style="color: rgb(255, 0, 234);"><h2>Link al mejor juego indie: </h2></a>
+        <br>
+        <video controls width="640">
+            <source src="https://video.akamai.steamstatic.com/store_trailers/256787547/movie480_vp9.webm?t=1591304534" type="video/webm">
+        </video>
     </div>
+
+
+    
+
     {% include 'paginas/footer.html' %}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
