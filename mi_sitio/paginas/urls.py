@@ -1,8 +1,8 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
-from django.http import HttpResponse
+
 
 urlpatterns=    [
-                path("",views.inicio),
-                path("contacto",views.contacto),
-                path("acerca",views.acerca),]
+                path("",views.inicio,name="inicio"),
+                path("contacto",views.contacto,name="contacto"),
+                path("acerca",views.acerca,name="acerca"),]

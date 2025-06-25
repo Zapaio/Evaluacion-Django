@@ -1,0 +1,21 @@
+
+
+<footer class="footer">
+    <nav style="display: flex; padding: 10px;" >
+        
+        <a href="{% url 'inicio' %}" class="btn btn-success" style="margin-left: 2%;">Página de Inicio</a>
+        
+        <a href="{% url 'contacto' %}" class="btn btn-success" style="margin-left: 2%;">Página de Contacto</a>
+        
+        <a href="{% url 'acerca' %}" class="btn btn-success" style="margin-left: 2%;">Acerca de</a>
+        
+    </nav>
+    <h6 style="font-family: 'Times New Roman', Times, serif;">&copy; {% now "Y" %} Mi Sitio Web. Ningun derecho reservado. <br>Benjamin Saavedra</h6>
+    
+    <div style="display: flex; margin-left: 30%;">
+        <a href="https://github.com/Zapaio?tab=repositories" target="_blank">
+            <img src="static/paginas/imagenes/git.png" alt="GitHub" style="height: 50px; width: 50px;">
+        </a>
+    </div>
+
+</footer>
